@@ -33,7 +33,7 @@ Pubs = project_home / "Pubs"
 ## upper_limit is the top of the tree that File Browser can reach
 ## start_dir is where File Browser starts
 upper_limit = project_home
-start_dir = Pubs.relative_to(upper_limit)
+start_dir = Files.relative_to(upper_limit)
 
 
 c = get_config()  # noqa
