@@ -74,7 +74,7 @@ c.ContentsManager.hide_globs = [
     ".python-version",
     "uv.lock",
     "uv.toml",
-    "toml_settings",
+    "toml-settings",
 ]
 
 c.ContentsManager.root_dir = str(upper_limit)

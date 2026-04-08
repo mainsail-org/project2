@@ -50,7 +50,7 @@ always-hidden = [
     '.python-version',
     'uv.lock',
     'uv.toml',
-    'toml_settings',
+    'toml-settings',
 ]
 
 
