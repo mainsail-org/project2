@@ -1,0 +1,13 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "password": false,
+  "pid": 82602,
+  "port": 8934,
+  "root_dir": "/Users/pr/Gennaker/ssh_keys",
+  "secure": false,
+  "sock": "",
+  "token": "67a10cc01279c9d47a288aca86670b75845569f7962646c8",
+  "url": "http://localhost:8934/",
+  "version": "2.17.0"
+}

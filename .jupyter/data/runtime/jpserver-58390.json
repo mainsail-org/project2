@@ -1,0 +1,13 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "password": false,
+  "pid": 58390,
+  "port": 8888,
+  "root_dir": "/Users/pr/Gennaker/empty_for_testing",
+  "secure": false,
+  "sock": "",
+  "token": "fbde31ee9f2b46f4163f0113b8cd4d69f616ca1fb4d7ab8f",
+  "url": "http://localhost:8888/",
+  "version": "2.17.0"
+}
