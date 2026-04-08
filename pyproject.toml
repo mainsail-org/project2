@@ -1,0 +1,58 @@
+[project]
+name = "project2"
+description = "Test cloud projects"
+authors = [{name ="Paul M Romer", email = "paul@paulromer.net"}]
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyterlab",
+    "jupyterlab-spellchecker",
+    "jupyterlab-code-formatter",
+    "black",
+    "isort",
+    "jupyterlab-lsp",
+    "python-lsp-server[all]>=1.13.1",
+    "jupyterlab-quickopen",
+    "gennaker_tufte",
+    "gennaker-tools",
+    ]
+
+
+[tool.gennaker]
+name = "Project2"
+collections = ["Channels"]
+
+
+[tool.gennaker.jupyter]
+file-browser-limit = "Files"
+keyboard-shortcuts = "alt"
+interface = "clean"
+remove-untitleds = true
+debugger = false
+status-bar = false
+custom-shell-path = ""
+always-hidden = [
+    'pyproject.toml',
+    '.venv',
+    '.jupyter',
+    '.ipynb_checkpoints',
+    '.ropeproject',
+    '.local-libraries',
+    '__pycache__',
+    '*.pyc',
+    '*.pyo',
+    '.DS_Store',
+    '*.so',
+    '*.dylib',
+    '*~',
+    '.ropeproject',
+    '.gennaker',
+    '.python-version',
+    'uv.lock',
+    'uv.toml',
+    'toml_settings',
+]
+
+
+[tool.gennaker.launcher]
+type = "jupyterlab"
