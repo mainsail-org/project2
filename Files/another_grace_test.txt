@@ -1,3 +1,5 @@
 another grace test!
 
 testing fetch command
+
+testing merge command!
